@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      div.nav {
+        /* display: flex; */
+      }
+
+      nav {
+        font-size: 1.25em;
+        background-color: #0c103a;
+        display: flex;
+        padding: 30px;
+      }
+
+      span {
+        color: #f54655;
+      }
+
+      div.logo {
+        width: 30%;
+        margin-left: 20%;
+        scale: 1.6;
+      }
+
+      div.list {
+        width: 70%;
+        margin: 0 25%;
+      }
+
+      div.list ul {
+        display: block;
+        display: flex;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+      }
+
+      div.list ul li a {
+        text-decoration: none;
+        padding: 0 30px;
+        /* transition: transform 0.3s; */
+      }
+
+      div.list ul li a:hover {
+        text-decoration: none;
+        padding: 0 30px;
+        /* -ms-transform: color(#f54655) scale(1.2); */
+        /* -webkit-transform: color(#f54655) scale(1.2); */
+        color: #f54655;
+        transition: 0.3s;
+      }
+
+      /* ==================== Section 1 ========================= */
+
+      section.first {
+        background-color: #0c103a;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      /* div.firstsection{
+              margin-top: -170px;
+            } */
+
+      div.hello p.hello {
+        font-size: 3em;
+        /* width: 70%; */
+      }
+
+      div.hello p.fond {
+        color: gray;
+        font-size: 1.1em;
+        /* width: 60%; */
+      }
+
+      button.resume {
+        margin-top: 30px;
+        width: 220px;
+        height: 40px;
+        background: #f54655;
+        font-size: 1.3em;
+        /* text-decoration: none; */
+      }
+
+      button.resume:hover {
+        margin-top: 30px;
+        width: 220px;
+        height: 40px;
+        background: #f43242;
+        color: gainsboro;
+        font-size: 1.3em;
+        transition: 0.3s;
+        /* text-decoration: none; */
+        scale: 1.05;
+      }
+
+      button.resume a {
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      div.secplusimg {
+        display: flex;
+      }
+
+      div.selfimg img {
+        width: 120%;
+        filter: drop-shadow(0px 0px 62px blue);
+        animation: img 6s infinite linear;
+      }
+
+      @keyframes img {
+        0% {
+          filter: drop-shadow(0px 0px 62px blue);
+        }
+        25% {
+          filter: drop-shadow(0px 0px 45px blue);
+        }
+        50% {
+          filter: drop-shadow(0px 0px 15px blue);
+        }
+        75% {
+          filter: drop-shadow(0px 0px 30px blue);
+        }
+        100% {
+          filter: drop-shadow(0px 0px 62px blue);
+        }
+      }
+
+      /* div.logoz {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            } */
+
+      /* .custom-shape-divider-bottom-1703438406 {
+              position: relative;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              overflow: hidden;
+              line-height: 0;
+              transform: rotate(180deg);
+            }
+
+            .custom-shape-divider-bottom-1703438406 svg {
+              position: relative;
+              display: block;
+              width: calc(120% + 1.3px);
+              height: 146px;
+            }
+
+            .custom-shape-divider-bottom-1703438406 .shape-fill {
+              fill: #ffffff;
+            } */
+
+      /* ============================= Section 2 ============================== */
+      section.second {
+        background-color: #0c103a;
+        height: 140vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      div.secondsection {
+        display: flex;
+        flex-direction: column;
+      }
+
+      video.one {
+        width: 800px;
+        z-index: 2;
+        position: relative;
+      }
+
+      div.videogroup2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      p.content {
+        font-size: 4em;
+      }
+
+      div.content {
+        margin-top: 7vh;
+      }
+
+      hr.two {
+        margin: 15vh;
+        background-color: white;
+        color: white;
+        width: 90%;
+        box-shadow: 5px 10px #f43242;
+      }
+
+      /* hr.two2{
+              background-color: white;
+              color: white;
+              width: 90%;
+              box-shadow: 5px 10px #f43242;
+            } */
+
+      /*====================== Section 3.1 ============================*/
+
+      section.threepointone {
+        background-color: #0c103a;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
+      p.Currently {
+        font-size: 3em;
+        color: #3fd2f4;
+        font-family: cursive;
+        margin: 35px;
+        /* box-shadow: 0px 24px 45px -25px; */
+        filter: drop-shadow(2px 4px 6px blue);
+      }
+
+      div.allprojects {
+        display: flex;
+        width: 90%;
+      }
+
+      div.allprjcontain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div.current {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /******************* Prj1 *********************/
+
+      div.prj1box {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px white;
+        /* margin: 7%; */
+      }
+
+      div.prj1box:hover {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        /* margin: 7%; */
+        scale: 1.04;
+        transition: 0.2s;
+      }
+
+      div.prj1 {
+        /* width: 65%; */
+        padding: 2%;
+      }
+
+      img.prj1 {
+        border-radius: 11px;
+        width: 60%;
+        height: 49vh;
+        margin: 20px;
+      }
+
+      p.prj1 {
+        width: 92%;
+        text-decoration: none;
+      }
+
+      /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+      button.prj1 {
+        width: 40%;
+        color: white;
+        background: #003a54;
+        margin: 10px;
+        height: 4.5vh;
+      }
+
+      button.prj1:hover {
+        width: 40%;
+        color: white;
+        background: #006c9e;
+        margin: 10px;
+        height: 4.5vh;
+        transition: 0.2s;
+      }
+
+      div.imgp {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /******************* Prj2 *********************/
+
+      div.prj2box {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px white;
+        /* margin: 7%; */
+      }
+
+      div.prj2box:hover {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        /* margin: 7%; */
+        scale: 1.04;
+        transition: 0.2s;
+      }
+
+      div.prj2 {
+        padding: 2%;
+      }
+      img.prj2 {
+        border-radius: 11px;
+        width: 60%;
+        height: 49vh;
+        margin: 20px;
+      }
+
+      p.prj2 {
+        width: 92%;
+        text-decoration: none;
+      }
+
+      /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+      button.prj2 {
+        width: 40%;
+        color: white;
+        background: #003a54;
+        margin: 10px;
+        height: 4.5vh;
+      }
+
+      button.prj2:hover {
+        width: 40%;
+        color: white;
+        background: #006c9e;
+        margin: 10px;
+        height: 4.5vh;
+        transition: 0.2s;
+      }
+
+      div.imgp {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /******************* Prj3 *********************/
+
+      div.prj3box {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        box-shadow: 0px 0px 20px white;
+        /* margin: 7%; */
+      }
+
+      div.prj3box:hover {
+        display: flex;
+        justify-content: center;
+        border: 4px solid white;
+        align-items: center;
+        height: 85vh;
+        flex-direction: column;
+        /* margin: 7%; */
+        scale: 1.04;
+        transition: 0.2s;
+      }
+
+      div.prj3 {
+        padding: 2%;
+      }
+      img.prj3 {
+        border-radius: 43px;
+        width: 55%;
+        height: 49vh;
+        margin: 20px;
+      }
+
+      p.prj3 {
+        width: 92%;
+        text-decoration: none;
+      }
+
+      /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+      button.prj3 {
+        width: 40%;
+        color: white;
+        background: #003a54;
+        margin: 10px;
+        height: 4.5vh;
+      }
+
+      button.prj3:hover {
+        width: 40%;
+        color: white;
+        background: #006c9e;
+        margin: 10px;
+        height: 4.5vh;
+        transition: 0.2s;
+      }
+
+      div.imgp {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      div.viewall p {
+        -webkit-animation-name: blink;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+        -webkit-animation-duration: 1s;
+      }
+
+      div.viewall p:hover {
+        color: gold;
+      }
+
+      @-webkit-keyframes blink {
+        67% {
+          opacity: 0;
+        }
+      }
+      @-moz-keyframes blink {
+        67% {
+          opacity: 0;
+        }
+      }
+      @-o-keyframes blink {
+        67% {
+          opacity: 0;
+        }
+      }
+      @keyframes blink {
+        67% {
+          opacity: 0;
+        }
+      }
+
+      /* ===================== Section 3.2 ======================== */
+
+      section.threepointtwo {
+        height: 130vh;
+        background-color: #0c103a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* ===================== Section 4 ======================== */
+
+      section.four {
+        background-color: #0c103a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+      }
+      .creammerger {
+        height: 107px;
+        background: #0c103a;
+        margin-top: 1.09vh;
+      }
+
+      div.spacebg img {
+        width: 100%;
+        /* height: 2141px; */
+        max-width: 100%;
+        /* object-fit: cover; */
+        background-repeat: no-repeat;
+      }
+
+      .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* .social-icon {
+                  display: inline-block;
+                  width: 70px;
+                  height: 70px;
+                  border-radius: 50%;
+                  background-color: #343434;
+                  color: #fff;
+                  margin: 18px;
+                  text-align: center;
+                  line-height: 68px;
+                  font-size: 36px;
+                  text-decoration: solid
+              }
+
+              .social-icon:hover {
+                  background-color: rgb(255, 0, 149);
+              } */
+
+      .social-icon {
+        border: 2px solid white;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #333;
+        color: #fff;
+        margin: 20px;
+        text-align: center;
+        line-height: 71px;
+        font-size: 40px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+
+      .social-icon:hover {
+        background-color: white;
+      }
+
+      .social-icon:hover i {
+        color: #333;
+      }
+
+      .social-icon i.fab.fa-facebook-f:hover {
+        color: #1877f2;
+      }
+
+      .social-icon i.fab.fa-twitter:hover {
+        color: #1da1f2;
+      }
+
+      .social-icon i.fab.fa-instagram:hover {
+        background-image: linear-gradient(
+          45deg,
+          rgb(245, 133, 41),
+          rgb(254, 218, 119),
+          rgb(221, 42, 123),
+          rgb(129, 52, 175),
+          rgb(81, 91, 212)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .social-icon i.fab.fa-linkedin-in:hover {
+        color: #0077b5;
+      }
+
+      .social-icon i.fab.fa-whatsapp:hover {
+        background-image: linear-gradient(180deg, #5ffc7b, #28d146);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .social-icon i.fab.fa-discord:hover {
+        color: #5865f2;
+      }
+
+      .social-icon i.fab.fa-reddit:hover {
+        color: #ff4500;
+      }
+
+      .social-icon i.fab.fa-pinterest:hover {
+        color: #b7081b;
+      }
+
+      p.one {
+        margin-top: -932px;
+        font-size: 67px;
+        margin-left: 309px;
+        color: antiquewhite;
+      }
+
+      p.two {
+        margin-top: 13px;
+        font-size: 67px;
+        margin-left: 245px;
+        color: antiquewhite;
+      }
+
+      p.three {
+        margin-top: 53px;
+        font-size: 53px;
+        margin-left: 171px;
+        color: antiquewhite;
+      }
+
+      span.my {
+        margin-top: 0px;
+        font-size: 85px;
+        color: #33ff00;
+      }
+
+      span.fri {
+        margin-top: 0px;
+        font-size: 85px;
+        color: #0d00ff;
+      }
+
+      span.fro {
+        color: rgb(255, 0, 195);
+      }
+
+      hr.three {
+        /* margin: 15vh; */
+        background-color: white;
+        color: white;
+        width: 90%;
+        box-shadow: 5px 10px #f43242;
+      }
+
+      /* ===================== Section 5 ======================== */
+
+      section.five {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #0c103a;
+      }
+
+      div.contact {
+        color: #ffffff;
+        font-size: 6em;
+        background-color: #0c103a;
+      }
+
+      .form {
+        max-width: 1000px;
+        margin: 35px auto;
+      }
+
+      .form-input {
+        width: 100%;
+        font-size: 19px;
+        border: 2px solid black;
+        border-radius: 6px;
+        margin: 13px 0;
+        padding: 4px 10px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .btn.submit {
+        color: black;
+        border: 2px solid grey;
+        margin-top: 20px;
+        margin: auto;
+      }
+
+      /* ======================== Section 6 ======================= */
+
+      .text-footer {
+        text-align: center;
+        padding: 30px 0;
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+      }
+
+      footer {
+        background-color: #006c9e;
+      }
+
+      /* <!-- ========================== Responsivity for Phone =========================== --> */
+
+      <!-- @media only screen and (max-width: 480px) {
+        html,
+        body {
+          background-color: #0c103a;
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden;
+        }
+
+        /* ========== Responsivity for Haburger and navbar */
+
+        /* li.lines{
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          top: 20px;
+          right: 15px;
+        } */
+
+        nav li{
+          display: none;
+        }
+
+        div.lines {
+          /* display: none; */
+          left: 12vh;
+          position: relative;
+        }
+        /* ================= rest of the website responsivity ========================= */
+
+        div.firstlogo img {
+          width: 125%;
+        }
+
+        div.secplusimg {
+          flex-direction: column-reverse;
+          /* margin-top: 50vh; */
+        }
+
+        section.first {
+          background-color: #0c103a;
+          height: 95vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+
+        div.firstsection {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        section.second {
+          margin-top: 36vh;
+        }
+
+        div.selfimg {
+          width: 90%;
+        }
+
+        div.logo {
+          width: 30%;
+          margin-left: 9%;
+          scale: 1.6;
+        }
+
+        div.hello p.hello {
+          font-size: 1.8em;
+          /* width: 70%; */
+          margin-top: -6.4vh;
+          left: 3vh;
+          position: relative;
+        }
+
+        div.firstlogo img {
+          width: 58%;
+          left: 18vh;
+          position: relative;
+        }
+
+        div.hello p.fond {
+          color: gray;
+          font-size: 1.2em;
+          /* width: 60%; */
+          left: 1vh;
+          position: relative;
+        }
+
+        div.allprjcontain {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        div.allprojects {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+
+        section.threepointone {
+          margin-top: 140vh;
+          background-color: #0c103a;
+          height: 120vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+
+        hr.three {
+          /* margin: 15vh; */
+          background-color: white;
+          color: white;
+          margin-top: 90vh;
+          width: 90%;
+          box-shadow: 5px 10px #f43242;
+        }
+
+        div.viewall p {
+          margin-top: 5vh;
+        }
+      }
+
+      /* ===================== Hamburger code ========================= */
+
+      .burger {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10%;
+        top: 30px;
+      }
+
+      .line {
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 3px 3px;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 250px;
+        z-index: 999;
+        backdrop-filter: blur(10px);
+        background-color: rgb(182, 179, 179, 0.1);
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .sidebar ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sidebar li {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+      }
+
+      .sidebar a {
+        width: 100%;
+      }
+
+      div.lines{
+        /* display: none; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <nav class="sidebar">
+        <!-- <div class="logo">Aayu<span>s</span>h</div> -->
+        <div onclick=hidesidebar()><img src="cross.png" alt=""></div>
+        <div class="list">
+          <ul id="ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="blogs.html">blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Hamburger -->
+
+        <!-- <div class="burger" id="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div> -->
+      </nav>
+
+      <nav>
+        <div class="logo">Aayu<span>s</span>h</div>
+        <div class="list">
+          <ul id="ul">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="blogs.html">blogs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <div class="lines" onclick=showsidebar()><a href="#">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </a></div>
+          </ul>
+          
+        
+
+        <!-- Hamburger -->
+
+        <!-- <div class="burger" id="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div> -->
+      </nav>
+    </div>
+
+    <section class="first">
+      <div class="secplusimg">
+        <div class="firstsection">
+          <div class="logoz">
+            <div class="firstlogo">
+              <img src="logo/LOGO2.png" alt="" />
+            </div>
+          </div>
+          <div class="hello">
+            <p class="hello">
+              Hello, I'm <br />a Web and Application Developer
+            </p>
+            <p class="fond">
+              fond of creating a web Application and bringing them to the life
+              using code and develop mobile design
+            </p>
+          </div>
+          <a href="resume/Resume.pdf"><button class="resume">Resume</button></a>
+        </div>
+
+        <div class="selfimg">
+          <img src="/svg image/main/svgbg-overlay.png" alt="" />
+        </div>
+        <!-- <div class="shadows"></div> -->
+      </div>
+    </section>
+
+    <!-- <div class="custom-shape-divider-bottom-1703438406">
+      <svg
+        data-name="Layer 1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1200 120"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+          class="shape-fill"
+        ></path>
+      </svg>
+    </div> -->
+
+    <section class="second">
+      <hr class="two" />
+      <div class="secondsection">
+        <div class="videogroup1">
+          <video class="one" width="400" autoplay loop muted>
+            <source src="firstsection/video/video1.mp4" type="video/mp4" />
+          </video>
+          <video class="two" width="400" autoplay loop muted>
+            <source src="firstsection/video/video2.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="videogroup2">
+          <video class="three" width="600" autoplay loop muted>
+            <source src="firstsection/video/video3.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+      <div class="content">
+        <p class="content">
+          Part tim<span>e</span> Vid<span>e</span>o Editor and
+          Cont<span>e</span>nt Cr<span>e</span>ator
+        </p>
+      </div>
+      <hr class="two" />
+      <!-- <hr class="two"> -->
+    </section>
+    <section class="threepointone">
+      <div class="sectionthree">
+        <div class="projects">
+          <div class="current">
+            <p class="Currently">
+              Check out some of my recent projects from varoius hackathon...
+            </p>
+          </div>
+          <div class="allprjcontain">
+            <div class="allprojects">
+              <div class="prj1">
+                <a href="" class="prj1">
+                  <div class="prj1box">
+                    <div class="imgp">
+                      <img
+                        class="prj1"
+                        src="thirdsection/prj1/prj1.png"
+                        alt=""
+                      />
+                      <p class="prj1">
+                        Interactive Project for the problem statement of the
+                        Government of Punjab, creating a AI chatbot for the
+                        PGKRAM employement website of the Punjab Government.
+                      </p>
+                    </div>
+                    <button class="prj1">
+                      <a
+                        href="thirdsection/prj1/ppt explaination/DESCRIPTION1.docx"
+                        >View PPT Presentation</a
+                      >
+                    </button>
+                    <button class="prj1">
+                      <a
+                        href="thirdsection/prj1/video explaination/SIH Video Explaination.mp4"
+                        >View Video Presentation</a
+                      >
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="prj3">
+                <a href="" class="prj3">
+                  <div class="prj3box">
+                    <div class="imgp">
+                      <img
+                        class="prj3"
+                        src="thirdsection/prj3/prj3.png"
+                        alt=""
+                      />
+                      <p class="prj3">
+                        Interactive messaging app project that Lorem ipsum dolor
+                        sit amet consectetur adipisicing elit. Suscipit,
+                        architecto debitis? Dolor exercitationem sa
+                      </p>
+                    </div>
+                    <button class="prj3">
+                      <a
+                        href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                        >View PPT Presentation</a
+                      >
+                    </button>
+                    <button class="prj3">
+                      <a
+                        href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                        >View Video Presentation</a
+                      >
+                    </button>
+                  </div>
+                </a>
+              </div>
+
+              <div class="prj2">
+                <a href="" class="prj2">
+                  <div class="prj2box">
+                    <div class="imgp">
+                      <img
+                        class="prj2"
+                        src="thirdsection/prj2/prj2.png"
+                        alt=""
+                      />
+                      <p class="prj2">
+                        Interactive Project for the problem statement of the
+                        Voice AI Daas, creating developing voice-enabled AI
+                        agents that showcase speed, code quality, and utility.
+                      </p>
+                    </div>
+                    <button class="prj2">
+                      <a
+                        href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                        >View PPT Presentation</a
+                      >
+                    </button>
+                    <button class="prj2">
+                      <a
+                        href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                        >View Video Presentation</a
+                      >
+                    </button>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="viewall">
+        <a href="allprj.html"><p>View all projects</p></a>
+      </div>
+    </section>
+    <section class="threepointtwo">
+      <hr class="three" />
+      <div class="project32">
+        <div class="prj32">
+          <p class="prj32"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="four">
+      <hr class="three" />
+      <!-- <div class="contact"></div> -->
+      <div class="creammerger">
+        <div class="social-media">
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/aayush_nikam_10/"
+            class="social-icon"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aayush-nikam-7a1a59282/"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-discord"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-reddit"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+      <hr class="three" />
+    </section>
+
+    <section class="five">
+      <div class="contact">Contact Us</div>
+      <div class="form">
+        <input
+          class="form-input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Name"
+        />
+        <input
+          class="form-input"
+          type="number"
+          name="Phone"
+          id="Phone"
+          placeholder="Enter your Phone Number"
+        />
+        <input
+          class="form-input"
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="Enter your Email"
+        />
+        <input
+          class="form-input"
+          type="text"
+          name="rating"
+          id="rating"
+          placeholder="Rate us"
+        />
+        <textarea
+          class="form-input"
+          name="texttext"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Elaborate your concern"
+        ></textarea>
+        <button class="btn submit">Submit</button>
+      </div>
+    </section>
+
+    <section class="six">
+      <footer class="background">
+        <p class="text-footer">
+          Copyright &copy; 2027 www.IUedu.com - All rights reserved (made by the
+          greatest person alive in the world-- shri shri shri AAYUSH NIKAM)
+        </p>
+      </footer>
+    </section>
+
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var burger = document.querySelector("#burger");
+            var list = document.querySelector(".list");
+
+            var flag = 0;
+
+            burger.addEventListener("click", function() {
+                if (flag == 0) {
+                    list.style.display = "block";
+                    flag = 1;
+                } else {
+                    list.style.display = "none";
+                    flag = 0;
+                }
+            });
+        });
+    </script> -->
+    <script src="ham.js"></script>
+  </body>
+</html>

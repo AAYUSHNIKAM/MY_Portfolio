@@ -1,0 +1,1018 @@
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Document</title>
+    <style>
+            * {
+              margin: 0;
+              padding: 0;
+              color: white;
+              font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            a {
+              text-decoration: none;
+            }
+            div.nav {
+              /* display: flex; */
+            }
+
+            nav {
+              font-size: 1.25em;
+              background-color: #0c103a;
+              display: flex;
+              padding: 30px;
+            }
+
+            span {
+              color: #f54655;
+            }
+
+            div.logo {
+              width: 30%;
+              margin-left: 20%;
+              scale: 1.6;
+            }
+
+            div.list {
+              width: 70%;
+              margin: 0 25%;
+            }
+
+            div.list ul {
+              display: flex;
+              padding: 0px;
+              list-style: none;
+              text-decoration: none;
+            }
+
+            div.list ul li a {
+              text-decoration: none;
+              padding: 0 30px;
+              /* transition: transform 0.3s; */
+            }
+
+            div.list ul li a:hover {
+              text-decoration: none;
+              padding: 0 30px;
+              /* -ms-transform: color(#f54655) scale(1.2); */
+              /* -webkit-transform: color(#f54655) scale(1.2); */
+              color: #f54655;
+              transition: 0.3s;
+            }
+
+            /* ==================== Section 1 ========================= */
+
+            section.first {
+              background-color: #0c103a;
+              height: 80vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            }
+
+            /* div.firstsection{
+              margin-top: -170px;
+            } */
+
+            div.hello p.hello {
+              font-size: 3em;
+              /* width: 70%; */
+            }
+
+            div.hello p.fond {
+              color: gray;
+              font-size: 1.1em;
+              /* width: 60%; */
+            }
+
+            button.resume {
+              margin-top: 30px;
+              width: 220px;
+              height: 40px;
+              background: #f54655;
+              font-size: 1.3em;
+              /* text-decoration: none; */
+            }
+
+            button.resume:hover {
+              margin-top: 30px;
+              width: 220px;
+              height: 40px;
+              background: #f43242;
+              color: gainsboro;
+              font-size: 1.3em;
+              transition: 0.3s;
+              /* text-decoration: none; */
+              scale: 1.05;
+            }
+
+            button.resume a {
+              text-decoration: none;
+              cursor: pointer;
+            }
+
+            div.secplusimg {
+              display: flex;
+            }
+
+            div.selfimg img {
+              width: 120%;
+              filter: drop-shadow(0px 0px 62px blue);
+              animation: img 6s infinite linear;
+            }
+
+            @keyframes img {
+              0% {
+                filter: drop-shadow(0px 0px 62px blue);
+              }
+              25% {
+                filter: drop-shadow(0px 0px 45px blue);
+              }
+              50% {
+                filter: drop-shadow(0px 0px 15px blue);
+              }
+              75% {
+                filter: drop-shadow(0px 0px 30px blue);
+              }
+              100% {
+                filter: drop-shadow(0px 0px 62px blue);
+              }
+            }
+
+            /* div.logoz {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            } */
+
+            /* .custom-shape-divider-bottom-1703438406 {
+              position: relative;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              overflow: hidden;
+              line-height: 0;
+              transform: rotate(180deg);
+            }
+
+            .custom-shape-divider-bottom-1703438406 svg {
+              position: relative;
+              display: block;
+              width: calc(120% + 1.3px);
+              height: 146px;
+            }
+
+            .custom-shape-divider-bottom-1703438406 .shape-fill {
+              fill: #ffffff;
+            } */
+
+            /* ============================= Section 2 ============================== */
+            section.second {
+              background-color: #0c103a;
+              height: 140vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            }
+
+            div.secondsection {
+              display: flex;
+              flex-direction: column;
+            }
+
+            video.one {
+              width: 800px;
+              z-index: 2;
+              position: relative;
+            }
+
+            div.videogroup2 {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            }
+
+            p.content {
+              font-size: 4em;
+            }
+
+            div.content {
+              margin-top: 7vh;
+            }
+
+            hr.two {
+              margin: 15vh;
+              background-color: white;
+              color: white;
+              width: 90%;
+              box-shadow: 5px 10px #f43242;
+            }
+
+            /* hr.two2{
+              background-color: white;
+              color: white;
+              width: 90%;
+              box-shadow: 5px 10px #f43242;
+            } */
+
+            /*====================== Section 3.1 ============================*/
+
+            section.threepointone {
+              background-color: #0c103a;
+              height: 210vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              position: relative;
+            }
+
+            p.Currently {
+              font-size: 3em;
+              color: #3fd2f4;
+              font-family: cursive;
+              margin: 35px;
+              box-shadow: 0px 24px 45px -25px;
+            }
+
+            div.allprojects {
+              display: flex;
+              width: 90%;
+            }
+
+            div.allprjcontain {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            div.current {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            /******************* Prj1 *********************/
+
+            div.prj1box {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              box-shadow: 0px 0px 20px white;
+              /* margin: 7%; */
+            }
+
+            div.prj1box:hover {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              /* margin: 7%; */
+              scale: 1.04;
+              transition: 0.2s;
+            }
+
+            div.prj1 {
+              /* width: 65%; */
+              padding: 2%;
+            }
+
+            img.prj1 {
+              border-radius: 11px;
+              width: 60%;
+              height: 49vh;
+              margin: 20px;
+            }
+
+            p.prj1 {
+              width: 92%;
+              text-decoration: none;
+            }
+
+            /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+            button.prj1 {
+              width: 40%;
+              color: white;
+              background: #003a54;
+              margin: 10px;
+              height: 4.5vh;
+            }
+
+            button.prj1:hover {
+              width: 40%;
+              color: white;
+              background: #006c9e;
+              margin: 10px;
+              height: 4.5vh;
+              transition: 0.2s;
+            }
+
+            div.imgp {
+              /* width: 100%; */
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            /******************* Prj2 *********************/
+
+            div.prj2box {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              box-shadow: 0px 0px 20px white;
+              /* margin: 7%; */
+            }
+
+            div.prj2box:hover {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              /* margin: 7%; */
+              scale: 1.04;
+              transition: 0.2s;
+            }
+
+            div.prj2 {
+              padding: 2%;
+            }
+            img.prj2 {
+              border-radius: 11px;
+              width: 60%;
+              height: 49vh;
+              margin: 20px;
+            }
+
+            p.prj2 {
+              width: 92%;
+              text-decoration: none;
+            }
+
+            /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+            button.prj2 {
+              width: 40%;
+              color: white;
+              background: #003a54;
+              margin: 10px;
+              height: 4.5vh;
+            }
+
+            button.prj2:hover {
+              width: 40%;
+              color: white;
+              background: #006c9e;
+              margin: 10px;
+              height: 4.5vh;
+              transition: 0.2s;
+            }
+
+            div.imgp {
+              /* width: 100%; */
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            /******************* Prj3 *********************/
+
+            div.prj3box {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              box-shadow: 0px 0px 20px white;
+              /* margin: 7%; */
+            }
+
+            div.prj3box:hover {
+              display: flex;
+              justify-content: center;
+              border: 4px solid white;
+              align-items: center;
+              height: 85vh;
+              flex-direction: column;
+              /* margin: 7%; */
+              scale: 1.04;
+              transition: 0.2s;
+            }
+
+            div.prj3 {
+              padding: 2%;
+            }
+            img.prj3 {
+              border-radius: 43px;
+              width: 55%;
+              height: 49vh;
+              margin: 20px;
+            }
+
+            p.prj3 {
+              width: 92%;
+              text-decoration: none;
+            }
+
+            /* div.prj1box p.prj1 a {
+              text-decoration: none;
+              cursor: pointer;
+            } */
+
+            button.prj3 {
+              width: 40%;
+              color: white;
+              background: #003a54;
+              margin: 10px;
+              height: 4.5vh;
+            }
+
+            button.prj3:hover {
+              width: 40%;
+              color: white;
+              background: #006c9e;
+              margin: 10px;
+              height: 4.5vh;
+              transition: 0.2s;
+            }
+
+            div.imgp {
+              /* width: 100%; */
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            div.viewall p{
+              -webkit-animation-name: blink;
+              -webkit-animation-iteration-count: infinite;
+              -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+              -webkit-animation-duration: 1s;
+            }
+
+            div.viewall p:hover {
+              color: gold;
+            }
+
+            @-webkit-keyframes blink {
+              67% {
+                opacity: 0;
+              }
+            }
+            @-moz-keyframes blink {
+              67% {
+                opacity: 0;
+              }
+            }
+            @-o-keyframes blink {
+              67% {
+                opacity: 0;
+              }
+            }
+            @keyframes blink {
+              67% {
+                opacity: 0;
+              }
+            }
+
+            /* ===================== Section 3.2 ======================== */
+
+            section.threepointtwo {
+              height: 130vh;
+              background-color: #0c103a;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+
+            /* ===================== Section 4 ======================== */
+
+            section.four {
+              background-color: #0c103a;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              height: 20vh;
+            }
+            .creammerger {
+              height: 107px;
+              background: #0c103a;
+              margin-top: 1.09vh;
+            }
+
+            div.spacebg img {
+              width: 100%;
+              /* height: 2141px; */
+              max-width: 100%;
+              /* object-fit: cover; */
+              background-repeat: no-repeat;
+            }
+
+            .social-media {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+
+            /* .social-icon {
+                  display: inline-block;
+                  width: 70px;
+                  height: 70px;
+                  border-radius: 50%;
+                  background-color: #343434;
+                  color: #fff;
+                  margin: 18px;
+                  text-align: center;
+                  line-height: 68px;
+                  font-size: 36px;
+                  text-decoration: solid
+              }
+
+              .social-icon:hover {
+                  background-color: rgb(255, 0, 149);
+              } */
+
+            .social-icon {
+              border: 2px solid white;
+              display: inline-block;
+              width: 70px;
+              height: 70px;
+              border-radius: 50%;
+              background-color: #333;
+              color: #fff;
+              margin: 20px;
+              text-align: center;
+              line-height: 71px;
+              font-size: 40px;
+              text-decoration: none;
+              transition: background-color 0.3s;
+            }
+
+            .social-icon:hover {
+              background-color: white;
+            }
+
+            .social-icon:hover i {
+              color: #333;
+            }
+
+            .social-icon i.fab.fa-facebook-f:hover {
+              color: #1877f2;
+            }
+
+            .social-icon i.fab.fa-twitter:hover {
+              color: #1da1f2;
+            }
+
+            .social-icon i.fab.fa-instagram:hover {
+              background-image: linear-gradient(
+                45deg,
+                rgb(245, 133, 41),
+                rgb(254, 218, 119),
+                rgb(221, 42, 123),
+                rgb(129, 52, 175),
+                rgb(81, 91, 212)
+              );
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .social-icon i.fab.fa-linkedin-in:hover {
+              color: #0077b5;
+            }
+
+            .social-icon i.fab.fa-whatsapp:hover {
+              background-image: linear-gradient(180deg, #5ffc7b, #28d146);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+
+            .social-icon i.fab.fa-discord:hover {
+              color: #5865f2;
+            }
+
+            .social-icon i.fab.fa-reddit:hover {
+              color: #ff4500;
+            }
+
+            .social-icon i.fab.fa-pinterest:hover {
+              color: #b7081b;
+            }
+
+            p.one {
+              margin-top: -932px;
+              font-size: 67px;
+              margin-left: 309px;
+              color: antiquewhite;
+            }
+
+            p.two {
+              margin-top: 13px;
+              font-size: 67px;
+              margin-left: 245px;
+              color: antiquewhite;
+            }
+
+            p.three {
+              margin-top: 53px;
+              font-size: 53px;
+              margin-left: 171px;
+              color: antiquewhite;
+            }
+
+            span.my {
+              margin-top: 0px;
+              font-size: 85px;
+              color: #33ff00;
+            }
+
+            span.fri {
+              margin-top: 0px;
+              font-size: 85px;
+              color: #0d00ff;
+            }
+
+            span.fro {
+              color: rgb(255, 0, 195);
+            }
+
+            hr.three {
+              /* margin: 15vh; */
+              background-color: white;
+              color: white;
+              width: 90%;
+              box-shadow: 5px 10px #f43242;
+            }
+
+            /* ===================== Section 5 ======================== */
+
+            section.five {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              background-color: #0c103a;
+            }
+
+            div.contact {
+              color: #ffffff;
+              font-size: 6em;
+              background-color: #0c103a;
+            }
+
+            .form {
+              max-width: 1000px;
+              margin: 35px auto;
+            }
+
+            .form-input {
+              width: 100%;
+              font-size: 19px;
+              border: 2px solid black;
+              border-radius: 6px;
+              margin: 13px 0;
+              padding: 4px 10px;
+              font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            .btn.submit {
+              color: black;
+              border: 2px solid grey;
+              margin-top: 20px;
+              margin: auto;
+            }
+
+            /* ======================== Section 6 ======================= */
+
+            .text-footer {
+              text-align: center;
+              padding: 30px 0;
+              font-family: "Ubuntu", sans-serif;
+              display: flex;
+              justify-content: center;
+              color: white;
+            }
+
+            footer {
+              background-color: #006c9e;
+            }
+
+            /* <!-- ========================== Responsivity =========================== --> */
+
+          <!-- @media only screen and (max-width: 412px){
+
+            div.firstlogo img{
+              width: 125%;
+            }
+
+            .hello{      
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
+            
+            div.selfimg img {
+    width: 82%;
+    filter: drop-shadow(0px 0px 62px blue);
+    animation: img 6s infinite linear;
+}
+
+div.hello p.hello {
+    font-size: 1.3em;
+    width: 74%;
+    left: -13px;
+    position: relative;
+}
+
+div.firstlogo img {
+    width: 41%;
+    left: 130px;
+    position: relative;
+    top: 40px;
+}
+
+div.hello p.fond {
+    color: gray;
+    font-size: 1.1em;
+    width: 50%;
+    left: -63px;
+    position: relative;
+}
+          } 
+        </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+          <div class="logo">Aayu<span>s</span>h</div>
+          <div class="list">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="blogs.html">blogs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <section class="threepointone">
+        <hr class="three" />
+        <div class="sectionthree">
+          <div class="projects">
+            <div class="current">
+              <p class="Currently">
+                Check out some of my recent projects from varoius hackathon...
+              </p>
+            </div>
+            <div class="allprjcontain">
+              <div class="allprojects">
+                <div class="prj1">
+                  <a href="" class="prj1">
+                    <div class="prj1box">
+                      <div class="imgp">
+                        <img
+                          class="prj1"
+                          src="thirdsection/prj1/prj1.png"
+                          alt=""
+                        />
+                        <p class="prj1">
+                          Interactive Project for the problem statement of the
+                          Government of Punjab, creating a AI chatbot for the
+                          PGKRAM employement website of the Punjab Government.
+                        </p>
+                      </div>
+                      <button class="prj1">
+                        <a
+                          href="thirdsection/prj1/ppt explaination/DESCRIPTION1.docx"
+                          >View PPT Presentation</a
+                        >
+                      </button>
+                      <button class="prj1">
+                        <a
+                          href="thirdsection/prj1/video explaination/SIH Video Explaination.mp4"
+                          >View Video Presentation</a
+                        >
+                      </button>
+                    </div>
+                  </a>
+                </div>
+  
+                <div class="prj3">
+                  <a href="" class="prj3">
+                    <div class="prj3box">
+                      <div class="imgp">
+                        <img
+                          class="prj3"
+                          src="thirdsection/prj3/prj3.png"
+                          alt=""
+                        />
+                        <p class="prj3">
+                          Interactive messaging app project that Lorem ipsum dolor
+                          sit amet consectetur adipisicing elit. Suscipit,
+                          architecto debitis? Dolor exercitationem sa
+                        </p>
+                      </div>
+                      <button class="prj3">
+                        <a
+                          href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                          >View PPT Presentation</a
+                        >
+                      </button>
+                      <button class="prj3">
+                        <a
+                          href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                          >View Video Presentation</a
+                        >
+                      </button>
+                    </div>
+                  </a>
+                </div>
+  
+                <div class="prj2">
+                  <a href="" class="prj2">
+                    <div class="prj2box">
+                      <div class="imgp">
+                        <img
+                          class="prj2"
+                          src="thirdsection/prj2/prj2.png"
+                          alt=""
+                        />
+                        <p class="prj2">
+                          Interactive Project for the problem statement of the
+                          Voice AI Daas, creating developing voice-enabled AI
+                          agents that showcase speed, code quality, and utility.
+                        </p>
+                      </div>
+                      <button class="prj2">
+                        <a
+                          href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                          >View PPT Presentation</a
+                        >
+                      </button>
+                      <button class="prj2">
+                        <a
+                          href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                          >View Video Presentation</a
+                        >
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="allprojects">
+            <div class="prj1">
+              <a href="" class="prj1">
+                <div class="prj1box">
+                  <div class="imgp">
+                    <img
+                      class="prj1"
+                      src="thirdsection/prj1/prj1.png"
+                      alt=""
+                    />
+                    <p class="prj1">
+                      Interactive Project for the problem statement of the
+                      Government of Punjab, creating a AI chatbot for the
+                      PGKRAM employement website of the Punjab Government.
+                    </p>
+                  </div>
+                  <button class="prj1">
+                    <a
+                      href="thirdsection/prj1/ppt explaination/DESCRIPTION1.docx"
+                      >View PPT Presentation</a
+                    >
+                  </button>
+                  <button class="prj1">
+                    <a
+                      href="thirdsection/prj1/video explaination/SIH Video Explaination.mp4"
+                      >View Video Presentation</a
+                    >
+                  </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="prj3">
+              <a href="" class="prj3">
+                <div class="prj3box">
+                  <div class="imgp">
+                    <img
+                      class="prj3"
+                      src="thirdsection/prj3/prj3.png"
+                      alt=""
+                    />
+                    <p class="prj3">
+                      Interactive messaging app project that Lorem ipsum dolor
+                      sit amet consectetur adipisicing elit. Suscipit,
+                      architecto debitis? Dolor exercitationem sa
+                    </p>
+                  </div>
+                  <button class="prj3">
+                    <a
+                      href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                      >View PPT Presentation</a
+                    >
+                  </button>
+                  <button class="prj3">
+                    <a
+                      href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                      >View Video Presentation</a
+                    >
+                  </button>
+                </div>
+              </a>
+            </div>
+
+            <div class="prj2">
+              <a href="" class="prj2">
+                <div class="prj2box">
+                  <div class="imgp">
+                    <img
+                      class="prj2"
+                      src="thirdsection/prj2/prj2.png"
+                      alt=""
+                    />
+                    <p class="prj2">
+                      Interactive Project for the problem statement of the
+                      Voice AI Daas, creating developing voice-enabled AI
+                      agents that showcase speed, code quality, and utility.
+                    </p>
+                  </div>
+                  <button class="prj2">
+                    <a
+                      href="thirdsection/prj2/ppt presentation/Presentation.pdf"
+                      >View PPT Presentation</a
+                    >
+                  </button>
+                  <button class="prj2">
+                    <a
+                      href="thirdsection/prj2/video presentation/Video Explaination.mp4"
+                      >View Video Presentation</a
+                    >
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="viewall">
+          <a href="allprj.html"><p>View all projects</p></a>
+        </div>
+      </section>
+      
+</body>
+</html>
